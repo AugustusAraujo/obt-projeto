@@ -1,0 +1,73 @@
+[
+    {
+        "nome": "Caneca logo alpha &lt;ed/tech&gt;",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216542791274526/unknown.png?width=135&height=135",
+        "funcao": "1",
+        "preço":"50",
+        "tag":"Canecas"
+    },
+    {
+        "nome": "Camisa alpha &lt;ed/tech&gt;",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216574558941184/unknown.png?width=112&height=135",
+        "funcao": "2",
+        "preço":"30",
+        "tag":"Camisetas"
+    },
+    {
+        "nome": "Caderno alpha &lt;ed/tech&gt;",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216605517119588/unknown.png?width=121&height=135",
+        "funcao": "3",
+        "preço":"30",
+        "tag":"Cadernos"
+    },
+    {
+        "nome": "Botton animados - branco",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216633425997854/unknown.png?width=139&height=135",
+        "funcao": "4",
+        "preço":"20",
+        "tag":"Bottom"
+    },
+    {
+        "nome": "Botton animados - preto",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216666116419604/unknown.png?width=139&height=135",
+        "funcao": "5",
+        "preço":"20",
+        "tag":"Bottom"
+    },
+    {
+        "nome": "Vale Xurras do Samir",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216693492641902/unknown.png?width=135&height=85",
+        "funcao": "6",
+        "preço":"1000",
+        "tag":"Vales"        
+    },
+    {
+        "nome": "Chaveiro logo alpha &lt;ed/tech&gt;",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216716829732884/unknown.png?width=56&height=135",
+        "funcao": "7",
+        "preço":"40",
+        "tag":"Chaveiros"
+    },
+    {
+        "nome": "Aula Extra CSS",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216739256664104/unknown.png?width=198&height=135",
+        "funcao": "8",
+        "preço":"90",
+        "tag":"CSS"
+    },
+    {
+        "nome": "Capa de celular alpha &lt;ed/tech&gt;",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216764418318477/unknown.png?width=105&height=135",
+        "funcao": "9",
+        "preço":"35",
+        "tag":"Capa"
+    },
+    {
+        "nome": "Caneta alpha &lt;ed/tech&gt;",
+        "imagem": "https://media.discordapp.net/attachments/910216507085168670/910216793925222400/unknown.png?width=135&height=135",
+        "funcao": "10",
+        "preço":"25",
+        "tag":"Canetas"
+    }
+    
+]

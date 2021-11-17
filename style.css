@@ -1,0 +1,239 @@
+/*FONTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+/* DECLARAÇÔES INICIAIS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    background: #2b364a21 53.82%;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #FFFCF8;
+    
+}
+
+/* Header */
+
+header{
+    z-index: 3;
+    position: fixed;
+    background: #2B364A;
+    width: 100%;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.headeritem > .dinheiroheaderitem{
+    display: inline-flex;
+    align-items: center;
+}
+.dinheiroheaderitem{
+    color: white;
+    font-size: 30px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.quantidadedinheiro{
+    transform: translateY(-15px);
+    margin-left: 3px;
+    font-family: "Ropa Sans";
+    font-style: italic;
+}
+.barrapesquisa{
+    width: 850px;
+    height: 50px;
+    background: rgba(232, 232, 233, 0.9);
+    border-radius: 6px 0px 0px 6px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+.headeritem button[type="submit"]{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    transform: translateX(-4.8px) translateY(2PX);
+    border-radius: 0px 6px 6px 0px;
+    background: #F1F5F2;
+}
+.headeritem button[type="submit"]:hover{
+    cursor: pointer;
+}
+.minhacontacarrinhoheader{
+    box-sizing: border-box;
+    padding: 30px;
+}
+.minhacontacarrinhoheader a{
+    margin: 30px;
+}
+.minhacontacarrinhoheader a svg{
+    fill: white;
+}
+.meuspedidosheader a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* MENU CATEGORIAS */
+
+.menucategorias{
+    margin-top: 105px;
+    width: 300px;
+    border-right: solid 1.5px #262c38;
+    height: 88%;
+    position: fixed;
+}
+.categoriasmenuh1{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 38px;
+    color: #2B364A;;
+}
+.menucategorias ul > h1{
+    font-family: "Ropa Sans";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2B364A;
+    margin: 10px;
+    padding-left: 8px;
+    margin-top: 30px;
+}
+.menucategorias ul > li{
+    font-family: "Ropa Sans";
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+    color: #2B364A;
+    padding-left: 10px;
+    margin: 10px;
+}
+.menucategorias ul{
+    padding-left: 20px;
+    list-style: none;
+}
+
+/* CONTAINERS */
+
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 310px;
+    height: 90%;
+}
+.containercarrinho{
+    width: 100%;
+    height: 100%;
+} 
+
+/* produtos */
+
+.container h1{
+    padding-top: 130px;
+    font-family: "Ropa Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 69px;
+    color: #2B364A; 
+    text-align: center;
+    box-sizing: border-box;
+}
+.container hr{
+    background: linear-gradient(270deg, rgba(43, 54, 74, 0) 0%, #2b364a6b 53.82%, rgba(43, 54, 74, 0) 100%);
+    border: none;
+    height: .5px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.produtoslist{
+    width: 100%;
+    height: 60%;
+}
+.produto{
+    display: inline-block;
+    width: 255px;
+    height: 330px;
+    margin: 30px;
+    text-align: center;
+    transform: scale(1.14);
+}
+.produto .imgpreco{
+    transform: translateY(12px);
+    margin-bottom: 8px;
+}
+.preco{
+    font-family: "Ropa Sans";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000000;
+    display: inline;
+    text-align: center;
+}
+.imgproduto{
+    text-align: center;
+}
+.nomeproduto{
+    margin-top: -13px;
+    font-family: "Ropa Sans";
+    font-style:italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    color: black;
+    text-align: start;
+    padding-left: 35px;
+}
+a .produtobutton{
+    background: #5A677B;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    width: 123px;
+    text-align: center;
+    height: 33px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+a .produtobutton:hover{
+    cursor: pointer;
+}
+.precoimg{
+    text-align: start;
+    padding-left: 35px;
+}
+.n0 .imgproduto{
+    padding-right: 40px;
+}
+.n5 .imgproduto{
+    padding-right: 20px;
+}
+
